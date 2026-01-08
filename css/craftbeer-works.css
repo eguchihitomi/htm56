@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.banner-large {
+    max-width: 650px;
+    width: 100%;
+    height: auto;
+}
+
+.banner-small {
+    max-width: 640px;
+    width: 100%;
+    height: auto;
+}
+
+.beer_label {
+    max-width: 65%;
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .beer_label {
+        max-width: 52%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .beer_label {
+        max-width: 55%;
+    }
+}
+
+.beer_grass_bin {
+    max-width: 80%;
+    width: 100%;
+}

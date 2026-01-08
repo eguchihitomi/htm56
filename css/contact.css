@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+body {
+    /*画面の高さを基準にする*/
+    min-height: 100vh;
+    /*フレックスボックス化*/
+    display: flex;
+    /*縦に並べる*/
+    flex-direction: column;
+}
+
+main {
+    /*mainが余白を埋める*/
+    flex: 1;
+}
+
+.contact-wrap {
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .contact-wrap {
+        padding-top: 66px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.contact h2 {
+    padding-top: 35px;
+    padding-bottom: 74px;
+    font-size: 2.4rem;
+    font-family: "Sue Ellen Francisco", "Coming Soon", "Architects Daughter", sans-serif;
+    letter-spacing: 1.4rem;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .contact h2 {
+        padding-top: 66px;
+        padding-bottom: 80px;
+        font-size: 3.4rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .contact h2 {
+        padding-top: 80px;
+        padding-bottom: 40px;
+        font-size: 3.8rem;
+    }
+}
+
+.contact img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 42px;
+}
+
+@media screen and (min-width:768px) {
+    .contact img {
+        max-width: 250px;
+        padding-bottom: 56px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .contact img {
+        max-width: 200px;
+        padding-bottom: 32px;
+    }
+}
+
+.contact-text {
+    font-size: 1.6rem;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    line-height: 2rem;
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width:768px) {
+    .contact-text {
+        font-size: 2.0rem;
+        line-height: 3.0rem;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .contact-text {
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 27px;
+    }
+}
+
+.mail {
+    font-size: 1.6rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+    background-color: #F4D4E3;
+    width: 260px;
+    height: 72px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (min-width:768px) {
+    .mail {
+        font-size: 2.0rem;
+        padding-top: 30px;
+        background-color: #F4D4E3;
+        width: 300px;
+        height: 90px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .mail {
+        font-size: 1.6rem;
+        padding-top: 27px;
+        background-color: #F4D4E3;
+        width: 250px;
+        height: 75px;
+    }
+}

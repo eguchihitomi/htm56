@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.a4-img {
+    max-width: 650px;
+    width: 100%;
+    height: auto;
+    box-shadow: lightgrey 4px 4px 4px;
+}
+
+.pkdesign {
+    max-width: 70%;
+    width: 100%;
+    box-shadow: lightgrey 4px 4px 4px;
+}
+
+@media screen and (min-width:768px) {
+    .logo {
+        max-width: 75%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .logo {
+        max-width: 60%;
+        width: 100%;
+    }
+}

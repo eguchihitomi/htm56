@@ -1,0 +1,238 @@
+@charset "utf-8";
+
+.profile-wrap {
+    padding-top: 70px;
+    padding-left: 38px;
+    padding-right: 38px;
+}
+
+@media screen and (min-width:768px) {
+    .profile-wrap {
+        padding-top: 66px;
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+
+}
+
+.profile h2 {
+    padding-top: 35px;
+    padding-bottom: 56px;
+    font-size: 2.4rem;
+    font-family: "Sue Ellen Francisco", "Coming Soon", "Architects Daughter", sans-serif;
+    letter-spacing: 1.4rem;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .profile h2 {
+        padding-top: 66px;
+        padding-bottom: 80px;
+        font-size: 3.4rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .profile h2 {
+        padding-top: 80px;
+        padding-bottom: 40px;
+        font-size: 3.8rem;
+    }
+}
+
+.profile img {
+    max-width: 280px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 56px;
+}
+
+@media screen and (min-width:768px) {
+    .profile img {
+        max-width: 386px;
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (min-widt:1024px) {
+    .profile img {
+        max-width: 450px;
+    }
+}
+
+.profile h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+@media screen and (min-width:768px) {
+    .profile h3 {
+        font-size: 2.2rem;
+        font-weight: 600;
+        margin-bottom: 36px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .profile h3 {
+        margin-bottom: 40px;
+    }
+}
+
+.profiel-text {
+    font-size: 1.6rem;
+    letter-spacing: 0.15rem;
+    line-height: 2.3rem;
+    text-align: left;
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width:768px) {
+    .profiel-text {
+        line-height: 2.5rem;
+        max-width: 500px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .profiel-text {
+        max-width: 520px;
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+    }
+}
+
+.can {
+    margin-top: 75px;
+}
+
+@media screen and (min-width:768px) {
+    .can {
+        margin-top: 90px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .can {
+        margin-top: 100px;
+    }
+}
+
+.can-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .can-title {
+        line-height: 1.8rem;
+    }
+}
+
+.profile-img {
+    padding-top: 50px;
+    padding-bottom: 45px;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+@media screen and (min-width:768px) {
+    .profile-img {
+        padding-top: 62px;
+        padding-bottom: 60px;
+        max-width: 250px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .profile-img {
+        padding-top: 82px;
+        padding-bottom: 68px;
+        max-width: 300px;
+    }
+}
+
+.can-subtitle {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 18px;
+    letter-spacing: 0.3rem;
+}
+
+@media screen and (min-width:768px) {
+    .can-subtitle {
+        font-size: 1.6rem;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .can-subtitle {
+        font-size: 1.6rem;
+        margin-top: 28px;
+        margin-bottom: 28px;
+    }
+}
+
+
+.can-text {
+    font-size: 1.6rem;
+    text-align: left;
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    letter-spacing: 0.15rem;
+    line-height: 2.3rem;
+    border-bottom: 1px dashed #ccc;
+    /* 点線の下線 */
+    padding-bottom: 1rem;
+    /* 下線と文字の間に余白 */
+    padding-bottom: 2.0rem;
+}
+
+@media screen and (min-width:768px) {
+    .can-text {
+        font-size: 1.6rem;
+        max-width: 500px;
+        width: 100%;
+        border-bottom: 1px dashed #ccc;
+        /* 点線の下線 */
+        padding-bottom: 1rem;
+        /* 下線と文字の間に余白 */
+        padding-bottom: 2.0rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .can-text {
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+        max-width: 520px;
+        padding-bottom: 45px;
+    }
+}
+
+.good-point {
+    padding-top: 56px;
+    padding-bottom: 30px;
+}
+
+footer {
+    padding-top: 180px;
+}

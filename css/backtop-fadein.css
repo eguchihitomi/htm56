@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+#backToTop {
+    display: inline-block;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 90px;
+    height: auto;
+    z-index: 100;
+}
+
+@media screen and (min-width:768px) {
+    #backToTop {
+        right: -5px;
+        width: 120px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    #backToTop {
+        right: 20px;
+        width: 150px;
+        height: auto;
+        z-index: 0;
+    }
+}
+
+.fadeIn {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 1.5s ease;
+    visibility: visible;
+    /* display: none は使わない */
+}
+
+.fadeIn.is-show {
+    opacity: 1;
+    transform: translateY(0);
+}

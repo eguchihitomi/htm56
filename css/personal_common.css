@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+body {
+    /*画面の高さを基準にする*/
+    min-height: 100vh;
+    /*フレックスボックス化*/
+    display: flex;
+    /*縦に並べる*/
+    flex-direction: column;
+}
+
+main {
+    /*mainが余白を埋める*/
+    flex: 1;
+}
+
+.peronal-warp {
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 70px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (min-width:768px) {
+    .peronal-warp {
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 560px;
+        width: 100%;
+        padding-top: 91px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .peronal-warp {
+        max-width: 800px;
+        width: 100%;
+        padding-top: 120px;
+    }
+}
+
+.personal-title {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+@media screen and (min-width:768px) {
+    .personal-title {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .personal-title {
+        padding-bottom: 25px;
+    }
+}
+
+.personal-title h2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+@media screen and (min-width:768px) {
+    .personal-title h2 {
+        font-size: 2.4rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .personal-title h2 {
+        font-size: 2.6rem;
+    }
+}
+
+.return-btn {
+    display: block;
+    position: relative;
+    width: 28px;
+    height: 28px;
+}
+
+@media screen and (min-width:768px) {
+    .return-btn {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .return-btn {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+.return-btn span {
+    position: absolute;
+    top: 50%;
+    /* ボタン中央 */
+    left: 50%;
+    width: 100%;
+    height: 1.5px;
+    border-radius: 10px;
+    background-color: #333;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    /* 中央で回転 */
+}
+
+.return-btn span:nth-of-type(2) {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.personal-img-wrap {
+    max-width: 100%;
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .personal-img-wrap {
+        padding-bottom: 118px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .personal-img-wrap {
+        padding-bottom: 73px;
+    }
+}
+
+.hover-target,
+.hover-target:hover {
+    cursor: none;
+}
