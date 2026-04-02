@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+.banner {
+    max-width: 650px;
+    width: 100%;
+    height: auto;
+}
+
+.logo2 {
+    max-width: 70%;
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .logo {
+        max-width: 75%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .logo {
+        max-width: 60%;
+        width: 100%;
+    }
+}
+
+.logo3 {
+    max-width: 40%;
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .logo {
+        max-width: 75%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .logo {
+        max-width: 60%;
+        width: 100%;
+    }
+}
+
+.logo4 {
+    max-width: 35%;
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .logo {
+        max-width: 50%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .logo {
+        max-width: 40%;
+        width: 100%;
+    }
+}
+
+.logo5 {
+    max-width: 50%;
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .logo {
+        max-width: 75%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .logo {
+        max-width: 60%;
+        width: 100%;
+    }
+}
